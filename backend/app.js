@@ -1,9 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+
 require('dotenv').config();
 
-const BASE_URL=process.env.BASE_URL;
 
 
 const mongodbUri = process.env.MONGODB_URI;
